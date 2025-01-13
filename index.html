@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,97 @@
     <link rel="stylesheet" href="styles.css">
     <script defer src="app.js"></script>
 </head>
+
 <body>
-    
-    
+
+    <h1>GeeksForGeeks Survey Form</h1>
+
+    <form id="surveyForm">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" placeholder="Enter your age" required>
+
+        <label for="description">Which option best describes you?</label>
+        <select id="description" name="description">
+            <option value="student">Student</option>
+            <option value="professional">Professional</option>
+            <option value="hobbyist">Hobbyist</option>
+            <option value="other">Other</option>
+        </select>
+
+        <div>
+            <p>Would you recommend GeeksForGeeks to a friend?</p>
+            <label for="recommend_yes">   
+                <input type="radio" id="recommend_yes" name="recommend" value="yes">
+                Yes
+            </label>
+            <label for="recommend_no">
+                <input type="radio" id="recommend_no" name="recommend" value="no">
+                No
+            </label>
+            <label for="recommend_maybe">
+                <input type="radio" id="recommend_maybe" name="recommend" value="maybe">
+                Maybe
+            </label>
+        </div>
+
+        <div>    
+            <p>Languages and Frameworks known:</p>
+            <label for="c">
+                <input type="checkbox" id="html" name="languages" value="C">
+                C
+            </label>
+            <label for="c++">
+                <input type="checkbox" id="css" name="languages" value="C++">
+                C++
+            </label>
+            <label for="c#">
+                <input type="checkbox" id="javascript" name="languages" value="C#">
+                C#
+            </label>
+            <label for="java">
+                <input type="checkbox" id="javascript" name="languages" value="Java">
+                Java
+            </label>
+            <label for="python">
+                <input type="checkbox" id="python" name="languages" value="Python">
+                Python
+            </label>
+            <label for="javaScript">
+                <input type="checkbox" id="java" name="languages" value="JavaScript">
+                JavaScript
+            </label>
+            <label for="react">
+                <input type="checkbox" id="java" name="languages" value="React">
+                React
+            </label>
+            <label for="angular">
+                <input type="checkbox" id="java" name="languages" value="Angular">
+                Angular
+            </label>
+            <label for="django">
+                <input type="checkbox" id="java" name="languages" value="Django">
+                Django
+            </label>
+            <label for="spring">
+                <input type="checkbox" id="java" name="languages" value="Spring">
+                Spring
+            </label>
+        </div>
+
+        <div class="form-control">
+            <div class="form-label">
+                <label for="comment">Any comments or suggestions</label>
+            </div>
+            <textarea class="input" id="comment" rows="6" cols="50"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
