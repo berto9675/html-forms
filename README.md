@@ -17,6 +17,6 @@
 - **JavaScript**: Una vez que el formulario se envíe, se deben de imprimir en la consola del navegador los datos ingresados por el usuario.
 
 ![Formulario de ejemplo](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210323124900/Survey-Form.gif)
-Licencia 📄
-Este proyecto está bajo la Licencia (Alberto Vicente Dúaz) - mira el archivo LICENSE.md para detalles
 
+## Licencia 📄
+Este proyecto está bajo la Licencia de [Berto9675](https://github.com/berto9675) - mira el archivo LICENSE.md para detalles
