@@ -20,4 +20,4 @@
 
 
 ## Licencia 📄
-Este proyecto está bajo la Licencia de [Berto9675](https://github.com/berto9675) - mira el archivo LICENSE.md para detalles
+Este proyecto está bajo la Licencia de [Berto9675](https://github.com/berto9675)
